@@ -1,0 +1,24 @@
+.title, .subtitle {
+    color: var(--menu-text-color);
+    text-transform: capitalize;
+}
+
+.title {
+    font-size: 4em;
+    margin-top: 30px;
+}
+
+.separator{
+    height: 30px;
+}
+
+.image {
+    width: 30px;
+    height: 30px;
+}
+
+hr {
+    color:var(--primary-color);
+    border: var(--primary-color) 2px solid;
+    opacity: 1;
+}

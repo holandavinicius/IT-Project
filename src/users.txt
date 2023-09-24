@@ -1,0 +1,12 @@
+admin
+$2y$10$Cy3cuVGHL2wu267ty/B6ZudeAtfU.p4LTVduWyI0NOZ9uCloJIubi
+0
+security
+$2y$10$FJJiFJD1k/r1E6xnIvcfAO.72kSm4qQw121Zxt9Cg/Kjl6WKEjedi
+1
+user1
+$2y$10$De4g5CPjvebodGHiNStG5ewyyzl.kjYKNNxhA7wvmSKINKly78SAO
+2
+employee
+$2y$10$n5AJTgewUMpH6jWyJIQd1uXWN4zTqvQXD3O9zL3HZH5i6LXWUsEO6
+2

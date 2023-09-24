@@ -1,0 +1,225 @@
+/* Constants */
+
+:root
+{
+    --background-color: #212529;
+    --background-secondary-color: #373d42;
+    --primary-color: #3d24c7;
+    --secondary-color: #8369fa;
+    --tertiary-color: #a0a0a0;
+    --menu-text-color: #f0f0f0;
+}
+
+body{
+    background-color: #212529;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg
+{
+    position: fixed;
+    width: 100vw;
+    height: 220px;
+    bottom: 0px;
+    background-image: url('../src/layered-waves-haikei.svg');
+    background-position: bottom;
+    z-index: -1;
+}
+
+/* Navbar css for desktop size */
+
+.desktopnav{ 
+    display: none;
+    position: fixed;  
+    float: left;
+    padding: 20px 0px 0px 10px;
+
+    top: 0;
+    width: 70px;
+    height: 100vh;
+    z-index: 1;
+
+    justify-content: space-between;
+    flex-direction: column;
+    overflow-x: hidden;
+    
+    background: var(--background-secondary-color);
+    box-shadow: 10px 0 0 var(--secondary-color);
+
+
+    transition: 0.3s;
+}
+
+.desktopnav .navlogo {
+    width: 50px;
+}
+
+.desktopnav .icon {
+    width: 30px;
+    height: 30px;
+    margin: 20px 15px;
+}
+
+.desktopnav h1, span{
+    color: var(--menu-text-color);
+}
+
+.desktopnav a,h1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    margin: 0;
+}
+
+.desktopnav h1 {
+    font-size: 2em;
+    margin-left: 20px;
+}
+
+.desktopnav span {
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    
+    margin: 0;
+}
+
+.desktopnav .userdiv {
+    display: flex;
+    align-items: center;
+}
+
+.dropupstyle{
+    background-color: var(--background-secondary-color);
+}
+
+/* Hover actions */
+
+.desktopnav:hover{
+    width: 300px;
+}
+
+.desktopnav a:hover .pagename{
+    background-color: var(--secondary-color);
+    
+}
+
+/* Navbar css for mobile size */
+
+.mobilenav{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    z-index: 1;
+    float: top;
+    padding: 20px 40px 20px 20px;
+    width: 100vw;
+    height: 90px;
+    margin: 0;
+    
+    background: var(--background-secondary-color);
+    border-bottom: 5px var(--secondary-color) solid;
+}
+
+.mobilenav .navlogo {
+    width: 50px;
+}
+
+.mobile-top-margin {
+    height: 80px;
+}
+
+.mobilenav .pagesdiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.mobilenav h1, span, .icon{
+    color: var(--menu-text-color);
+}
+
+.mobilenav a,h1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0;
+}
+
+.mobilenav .userdiv {
+    display: flex;
+    align-items: center;
+}
+
+.mobilenav h1 {
+    display: none;
+    font-size: 2em;
+    margin-left: 20PX;
+}
+
+.mobilenav h1 {
+    font-size: 2em;
+    margin-left: 10px;
+}
+
+.mobilenav span {
+    font-size: 1.2em;
+    display: none;
+    align-items: center;
+    
+    margin: 0;
+}
+
+.mobilenav .icon {
+    width: 30px;
+    height: 30px;
+    margin: 20px 15px;
+}
+
+.dropdownstyle {
+    background-color: var(--background-secondary-color);
+    font-size: 1em;
+
+}
+
+/* Hover actions */
+
+.mobilenav a:hover .pagename{
+    background-color: var(--secondary-color);
+    
+}
+
+.mobilenav a:hover .icon{
+    background-color: var(--secondary-color);
+    
+}
+
+
+/* Actual page action */
+
+.actualpage span{
+    text-decoration:underline;  
+    text-decoration-color: var(--secondary-color);
+    text-decoration-thickness:3px;
+    
+}
+
+.actualpage .icon {
+    border-bottom: solid 3px var(--secondary-color);
+}
+
+
+/* Logout button in user dropdown*/
+
+.logoutbtn {
+    color: rgb(250, 26, 26);
+}
+
+.logoutbtn:hover {
+    color: rgb(255, 59, 59);
+}

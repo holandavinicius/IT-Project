@@ -1,0 +1,21 @@
+<svg width="247" height="155" viewBox="0 0 247 155" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M124.62 2.49997H85.803L3.99997 151.5H243.279L163.423 2.49997H124.62Z" fill="#212121" stroke="black" stroke-width="4"/>
+<path d="M233.433 152.501L155.12 3.49997" stroke="#E2E2E2" stroke-width="4" stroke-linecap="round"/>
+<path d="M17.6199 150L95.1199 2" stroke="#E2E2E2" stroke-width="4" stroke-linecap="round"/>
+<path d="M124.62 2.49997H85.803L3.99997 151.5H243.279L163.423 2.49997H124.62Z" stroke="black" stroke-width="4"/>
+<path d="M25.6199 30.5V73.5H55.6199V30.5C55.6199 22.2157 48.9039 15.5 40.6199 15.5C32.3359 15.5 25.6199 22.2157 25.6199 30.5Z" fill="#565656" stroke="black" stroke-width="4"/>
+<path d="M44.6199 26.5H201.62C206.038 26.5 209.62 30.0817 209.62 34.5C209.62 38.9182 206.038 42.5 201.62 42.5H44.6199C40.2017 42.5 36.6199 38.9182 36.6199 34.5C36.6199 30.0817 40.2017 26.5 44.6199 26.5Z" fill="#D9D9D9" stroke="black" stroke-width="4"/>
+<mask id="mask0_102_48" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="34" y="24" width="178" height="21">
+<path d="M44.6199 26.5H201.62C206.038 26.5 209.62 30.0817 209.62 34.5C209.62 38.9182 206.038 42.5 201.62 42.5H44.6199C40.2017 42.5 36.6199 38.9182 36.6199 34.5C36.6199 30.0817 40.2017 26.5 44.6199 26.5Z" fill="#D9D9D9" stroke="black" stroke-width="4"/>
+</mask>
+<g mask="url(#mask0_102_48)">
+<path d="M200.949 22.7158L179.331 53.7158" stroke="#B82727" stroke-width="10"/>
+<path d="M176.331 22.7158L154.712 53.7158" stroke="#B82727" stroke-width="10"/>
+<path d="M151.712 22.7158L130.094 53.7158" stroke="#B82727" stroke-width="10"/>
+<path d="M127.094 22.7158L105.476 53.7158" stroke="#B82727" stroke-width="10"/>
+<path d="M102.476 22.7158L80.8577 53.7158" stroke="#B82727" stroke-width="10"/>
+<path d="M77.8571 22.7158L56.2388 53.7158" stroke="#B82727" stroke-width="10"/>
+<path d="M53.2391 22.7158L31.6208 53.7158" stroke="#B82727" stroke-width="10"/>
+</g>
+<path d="M44.6199 26.5H201.62C206.038 26.5 209.62 30.0817 209.62 34.5C209.62 38.9182 206.038 42.5 201.62 42.5H44.6199C40.2017 42.5 36.6199 38.9182 36.6199 34.5C36.6199 30.0817 40.2017 26.5 44.6199 26.5Z" stroke="black" stroke-width="4"/>
+</svg>

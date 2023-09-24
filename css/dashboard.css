@@ -1,0 +1,57 @@
+:root
+{
+    --background-color: #212529;
+    --background-secondary-color: #373d42;
+    --primary-color: #3d24c7;
+    --secondary-color: #8369fa;
+    --tertiary-color: #a0a0a0;
+    --menu-text-color: #f0f0f0;
+}
+
+
+.logo {
+    width: 140px;
+}
+
+
+.card-footer a {
+    color: black;
+}
+
+
+.image{
+    display: block;
+    margin: auto;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+
+.title, .subtitle {
+    color: var(--menu-text-color);
+    text-transform: capitalize;
+}
+
+.title {
+    font-size: 4em;
+    margin: 30px;
+}
+
+hr {
+    color:var(--primary-color);
+    border: var(--primary-color) 2px solid;
+    opacity: 1;
+}
+
+
+/* Fade in */
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+  }
+
+  .fade-in.loaded {
+    opacity: 1;
+  }
